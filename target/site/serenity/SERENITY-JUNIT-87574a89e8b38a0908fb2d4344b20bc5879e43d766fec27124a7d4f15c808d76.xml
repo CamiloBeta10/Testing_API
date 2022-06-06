@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="SerenityInitialTests" skipped="0" tests="1" time="6.48" timestamp="2022-06-02 09:10:48"><testcase classname="SerenityInitialTests" name="Post empleado"><failure message="expected:&lt;[200]&gt; but was:&lt;[429]&gt;" type="org.junit.ComparisonFailure">expected:&lt;[200]&gt; but was:&lt;[429]&gt;</failure><system-err>expected:&lt;[200]&gt; but was:&lt;[429]&gt;&#13;
+SerenityInitialTests.postEmpleado(SerenityInitialTests.java:35)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Serenity initial tests","Get empleado","SUCCESS","2022-06-02T20:43:07.519-05:00[America/Bogota]","0.0","4.42"
+"Serenity initial tests","Get empleado fail","FAILURE","2022-06-02T20:43:11.981-05:00[America/Bogota]","0.0","1.02"
