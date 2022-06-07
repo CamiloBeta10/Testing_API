@@ -19,10 +19,10 @@ public class EmpleadoCreado implements Question<ValidatableResponse> {
         return SerenityRest.then().statusCode(Integer.parseInt(getDatosPrueba().get("codigoRespuesta").toString()))
                 .body("status",is("success"))
                 .body("message",is("Successfully! Record has been added."))
-                .body("data.id",not(isEmptyString()));
-                //.body("data.name",is(Integer.parseInt(getDatosPrueba().get("salario").toString()));
-               // .body("salary",is(Integer.parseInt(getDatosPrueba().get("salario").toString())))
-              // .body("age",is(Integer.parseInt(getDatosPrueba().get("edad").toString())))
-               // .body("profile_image",not(isEmptyString()));
+                .body("data.id",not(isEmptyString()))
+                .body("data.name",is(getDatosPrueba().get("nombre").toString()))
+                .body("data.salary",is(Integer.parseInt(getDatosPrueba().get("salario").toString())))
+                .body("data.age",is(Integer.parseInt(getDatosPrueba().get("edad").toString())))
+                .body("profile_image",not(isEmptyString()));
     }
 }
