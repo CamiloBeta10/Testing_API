@@ -22,9 +22,9 @@ public class CrearEmpleado implements Task {
         actor.attemptsTo(
                 Post.to(POST_EMPLEADO.getUrl())
                         .with(requestSpecification -> requestSpecification.contentType(ContentType.JSON)
-                                .body("{" + " \"name\": \"" + getDatosPrueba().get("nombre").toString() + "\",\n" +
-                                        "    \"salary\": \"" + getDatosPrueba().get("salario").toString() + "\"\n" +
-                                "    \"age\": \"" + getDatosPrueba().get("edad").toString() + "\"\n" + "}")));
+                                 .body("{" + " \"name\": \"" + getDatosPrueba().get("nombre").toString() + "\",\n" +
+                                        "    \"salary\": "+ getDatosPrueba().get("salario").toString() + ",\n" +
+                                "    \"age\": " + getDatosPrueba().get("edad").toString() + "\n" + "}")));
         System.out.println("Body" + SerenityRest.lastResponse().getBody());
     }
 }
