@@ -5,8 +5,8 @@ import net.serenitybdd.rest.SerenityRest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
-import static model.DatosPrueba.getDatosPrueba;
-import static org.hamcrest.Matchers.isEmptyString;
+import static org.hamcrest.Matchers.is;
+
 
 public class EmpleadoEliminado implements Question<ValidatableResponse> {
 
