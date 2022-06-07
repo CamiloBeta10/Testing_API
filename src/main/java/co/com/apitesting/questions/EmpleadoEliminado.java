@@ -16,7 +16,8 @@ public class EmpleadoEliminado implements Question<ValidatableResponse> {
 
     @Override
     public ValidatableResponse answeredBy(Actor actor) {
-        return SerenityRest.then().statusCode(Integer.parseInt(getDatosPrueba().get("codigoRespuesta").toString()))
-                .body(isEmptyString());
+     return SerenityRest.then().statusCode(200)
+                .body("status",is("success"))
+                .body("message",is("Successfully! Record has been deleted"));
     }
 }
