@@ -6,7 +6,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/features/eliminar_Empleado.feature",
+@CucumberOptions(features = "src/test/resources/features/Crear_Empleado.feature",
         glue = "co/com/apitesting/stepdefinitions",
         snippets = SnippetType.CAMELCASE)
 public class CrearEmpleadoRunner {
