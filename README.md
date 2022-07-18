@@ -13,6 +13,9 @@ http://dummy.restapiexample.com/api/v1/create
 DELETE
 http://dummy.restapiexample.com/api/v1/delete/2
 
+
+https://www.postman.com/mission-engineer-98486169/workspace/postman-homework/documentation/16588684-fdcad8ae-8251-4f46-84a0-33b3d91e755b
+
 ### Escenarios Automatizados
 
 | Escenario  | 
